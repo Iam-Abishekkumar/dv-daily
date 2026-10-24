@@ -1,0 +1,120 @@
+sv	What is the difference between logic, wire and reg in SystemVerilog?
+uvm	Describe the UVM testbench hierarchy: test, env, agent, driver, monitor, sequencer, scoreboard.
+sva	Immediate assertion vs concurrent assertion: what is the difference?
+amba	APB: describe the SETUP and ACCESS phases.
+design	Setup time vs hold time: what happens on each violation?
+linux	grep: find all lines with UVM_ERROR in sim.log and count them.
+cpp	Reverse a linked list: explain the approach and time/space complexity.
+sv	Static array vs dynamic array: what is the difference and when do you use each?
+uvm	uvm_component vs uvm_object: what is the difference?
+sva	What is the difference between |-> and |=> ?
+amba	APB: what are PREADY and PSLVERR used for?
+design	What is metastability and how does a 2-flop synchronizer help?
+linux	find: list all .sv files modified in the last 1 day.
+cpp	Detect a cycle in a linked list (Floyd's slow/fast pointer).
+sv	What is an associative array? Give one DV use case (hint: sparse memory model).
+uvm	List the UVM phases in order. Which run top-down and which bottom-up?
+sva	What does ##[1:3] mean? Write a small example property.
+amba	AHB: what is address/data pipelining?
+design	How do you cross a multi-bit bus between clock domains? (gray code, handshake, async FIFO)
+linux	awk: print the 3rd column of a log file.
+cpp	Two Sum using a hash map: approach and complexity.
+sv	What is a queue in SV? Show push_back, pop_front and size() in a small example.
+uvm	Why is run_phase a task but build_phase a function?
+sva	Explain $rose, $fell, $stable and $past with one line each.
+amba	AHB: explain HTRANS values IDLE, BUSY, NONSEQ and SEQ.
+design	Why are gray-code pointers used in an async FIFO?
+linux	sed: replace every 'clk' with 'clk_i' in a file.
+cpp	Count set bits in an integer (Brian Kernighan's trick).
+sv	What is the difference between rand and randc?
+uvm	What is the UVM factory and why use type_id::create() instead of new()?
+sva	What is disable iff and why is it used with reset?
+amba	AHB: what is HREADY and how does a slave insert wait states?
+design	How do you calculate FIFO depth for a burst? Do one small example.
+linux	Vim: search and replace in the whole file with confirm. What is the command?
+cpp	Check if a number is a power of 2 using bit operations.
+sv	What do pre_randomize() and post_randomize() do? Give a use case.
+uvm	Factory override: type override vs instance override.
+sva	Write an assertion: after req rises, ack must come within 1 to 4 cycles.
+amba	AHB: list the burst types (INCR, WRAP4, ...) and the 1KB boundary rule.
+design	Mealy vs Moore FSM: differences and one example each.
+linux	Vim: what are macros (q)? Give one DV use case.
+cpp	Implement a queue using two stacks.
+sv	Write a constraint using dist so a value is small (0-15) 70% of the time and large 30%.
+uvm	How does uvm_config_db set/get work? Name two common mistakes.
+sva	assert vs assume vs cover property: what does each do (in sim and in formal)?
+amba	AXI: name the 5 channels and what each carries.
+design	What is clock gating and what can go wrong in verification?
+linux	Git: merge vs rebase, what is the difference?
+cpp	Pointer vs reference in C++: differences.
+sv	What does solve...before do in constraints and when do you need it?
+uvm	Explain the sequence -> sequencer -> driver handshake (start_item/finish_item, get_next_item/item_done).
+sva	What is a vacuous pass? How do you detect it?
+amba	AXI: VALID/READY handshake rules. Can VALID wait for READY? Can READY wait for VALID?
+design	Synchronous vs asynchronous reset; what is a reset synchronizer?
+linux	Git: how do you undo the last commit but keep the changes?
+cpp	What is a virtual function / vtable in C++? Compare with SV virtual methods.
+sv	Blocking (=) vs non-blocking (<=): what is the difference and why use <= in sequential logic?
+uvm	What are objections? Why does a test end at time 0 without them?
+sva	What do the repetition operators [*n], [->n] and [=n] mean?
+amba	AXI: what do AxLEN, AxSIZE and AxBURST mean?
+design	What is a latch, and how is it inferred by mistake in RTL?
+linux	Use sort | uniq -c to count unique error messages in a sim log. Write the command.
+cpp	Valid parentheses problem using a stack.
+sv	What is a clocking block and how does it avoid race conditions between TB and DUT?
+uvm	What is a TLM analysis port? How does the monitor send transactions to the scoreboard?
+sva	What do throughout and within mean? Give an example.
+amba	AXI: FIXED vs INCR vs WRAP bursts: when is each used?
+design	Write Verilog for a rising-edge detector.
+linux	What is a Makefile target? Why do DV flows use make for regressions?
+cpp	Write binary search without off-by-one bugs.
+sv	What is a virtual interface and why does a class-based testbench need it?
+uvm	Active agent vs passive agent: what is the difference?
+sva	Formal vs simulation: what can formal prove that simulation cannot?
+amba	AXI: what is the 4KB boundary rule and why does it exist?
+design	What is a round-robin arbiter? How would you verify fairness?
+linux	What should go in .gitignore for a DV repo (sim outputs, waves, etc.)?
+cpp	Swap two numbers with XOR (no temp). Why can it be risky?
+sv	fork-join vs fork-join_any vs fork-join_none: explain each.
+uvm	What is a virtual sequence and a virtual sequencer?
+sva	What is a bounded proof, and what does an 'inconclusive' result mean?
+amba	AXI: what are transaction IDs for? Explain out-of-order responses.
+design	What is credit-based flow control?
+linux	Bash: write a loop that runs one test with 5 different seeds.
+cpp	Find the single non-repeating number in an array using XOR.
+sv	What does disable fork do, and what is the danger of using it?
+uvm	What are the `uvm_do macros and why do many teams avoid them?
+sva	What is over-constraining in formal and why is it dangerous?
+amba	AXI: can write data arrive before the write address? What must a slave handle?
+design	What is pipelining, and what hazards can appear?
+sv	Shallow copy vs deep copy of a class object: explain with an example.
+uvm	How do you write a scoreboard for an in-order DUT vs an out-of-order DUT?
+sva	Safety property vs liveness property: explain with one example each.
+amba	AXI: what is WSTRB and how do narrow transfers work?
+design	AI accelerator: what is a systolic array (high level)?
+sv	What are virtual methods and polymorphism in SV? Write a short example.
+uvm	What is RAL (register abstraction layer)? Frontdoor vs backdoor access.
+sva	Strong vs weak properties: what does s_eventually mean?
+amba	AXI: explain BRESP/RRESP values OKAY, EXOKAY, SLVERR, DECERR.
+design	AI accelerator: what is a MAC unit, and why use INT8 / FP16 / BF16?
+sv	function vs task in SV: list the differences.
+uvm	RAL prediction: explicit vs implicit (auto) prediction.
+sva	How does bind work and why is it used to attach assertions to RTL?
+amba	AXI: outstanding transactions; why was write interleaving removed in AXI4?
+design	What is cache coherence at a high level? Explain MESI states.
+sv	mailbox vs semaphore vs event: when do you use each?
+uvm	What are UVM callbacks and when are they useful?
+sva	Write an assertion: a FIFO must never be written when it is full.
+amba	AXI4 vs AXI4-Lite vs AXI4-Stream: key differences.
+design	What is a skid buffer in a valid/ready pipeline and why is it needed?
+sv	What are covergroup, coverpoint and cross? Write a tiny example.
+uvm	How do you control verbosity and severity (uvm_info, UVM_LOW/HIGH, uvm_error, uvm_fatal)?
+sva	Why are cover properties important in formal (reachability)?
+amba	How would you verify an AXI slave? List key checkers and coverage points.
+design	One-hot vs binary FSM encoding: tradeoffs.
+sv	What are bins, illegal_bins and ignore_bins?
+uvm	What is `uvm_analysis_imp_decl used for?
+sv	What is $cast and when does it fail?
+uvm	How should a driver handle reset in the middle of a sequence?
+sv	How do the inside and unique constraints work? Give an example of each.
+sv	Explain SV scheduling regions (Active, Inactive, NBA, Observed, Reactive) at a high level.
