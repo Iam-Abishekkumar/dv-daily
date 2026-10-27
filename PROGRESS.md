@@ -6,3 +6,4 @@
 - 2026-10-26 | Q004 | amba | APB: describe the SETUP and ACCESS phases.
 - 2026-10-26 | Q005 | design | Setup time vs hold time: what happens on each violation?
 - 2026-10-27 | Q006 | linux | grep: find all lines with UVM_ERROR in sim.log and count them.
+- 2026-10-27 | Q007 | cpp | Reverse a linked list: explain the approach and time/space complexity.
